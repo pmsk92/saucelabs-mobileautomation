@@ -4,6 +4,7 @@
     <test name="Add and Delete Item Test">
         <classes>
             <class name="tests.AddItemTest"/>
+            <class name="tests.EmptyItemCheckoutTest"/>
         </classes>
 
     </test> <!-- Test -->
