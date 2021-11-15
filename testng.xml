@@ -1,12 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="SauceLab Test">
-    <test name="Add and Delete Item Test">
+<suite name="SauceLab Mobile Test">
+    <test name="All Emerging Tests">
         <classes>
-            <class name="tests.AddItemTest"/>
-            <class name="tests.EmptyItemCheckoutTest"/>
+            <class name="tests.DummyTest"/>
         </classes>
-
     </test> <!-- Test -->
+
+    <listeners>
+        <listener class-name="listeners.TestNGListener"/>
+    </listeners>
+
+    <packages>
+        <package name="tests.*"></package>
+    </packages>
 
 </suite> <!-- Suite -->
